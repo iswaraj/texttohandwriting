@@ -113,8 +113,10 @@ input[type='number'] {
 .introtoswaraj{
   background-color: #ffe8e8;
   font-color-primary: #333;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  font-size: 1rem;
+  padding: 35px 5px 5px 5px;
 }
 .shadow {
   box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2);
@@ -311,6 +313,14 @@ body.dark .github-corner {
   .page-container-super {
     display: flex;
     flex-direction: column;
+  }
+  .introtoswaraj{
+    background-color: #ffe8e8;
+    font-color-primary: rgb(12, 12, 12);
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    font-size: 0.7rem;
+    padding: 35px 5px 5px 5px;
   }
 
   .output img {
